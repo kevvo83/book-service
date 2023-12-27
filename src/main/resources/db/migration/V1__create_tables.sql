@@ -1,0 +1,7 @@
+USE SCHEMA library_application;
+
+CREATE TABLE IF NOT EXISTS books_tab (
+    ID LONG NOT NULL,
+    AUTHOR VARCHAR NOT NULL,
+    TITLE VARCHAR NOT NULL
+);
